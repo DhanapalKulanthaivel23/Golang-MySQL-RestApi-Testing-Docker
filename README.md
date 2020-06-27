@@ -16,16 +16,16 @@ Golang-MySQL-RestApi-Testing-Docker
         |--listuser.go          	- to handle List User
         |--removeuser.go        	- to handle Remove User
         |--updateuser.go        	- to handle Update User
-		|--userinfo.go				- to handle UserInfo
-		|--tests					- Test Script
-            |--base.go				- Testing Base
-			|--createuser_test.go	- User Creation Test scripts
-    |--libs                   		- Libraries
-        |--utils					- Util files
-            |--logger				- Logger Files
-				|--logger.go		- to structured logger
-			|--misc.go				- Miscellaneous Env Details
-        |--sqldb.go					- Database Details
+        |--userinfo.go          	- to handle UserInfo
+        |--tests                	- Test Script
+            |--base.go          	- Testing Base
+            |--createuser_test.go	- User Creation Test scripts
+    |--libs                       	- Libraries
+        |--utils                 	- Util files
+            |--logger            	- Logger Files
+                |--logger.go     	- to structured logger
+        |--misc.go               	- Miscellaneous Env Details
+        |--sqldb.go              	- Database Details
     |--Docker                
     |--main.go  
 ```	
