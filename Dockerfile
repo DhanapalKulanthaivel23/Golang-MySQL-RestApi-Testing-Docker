@@ -7,4 +7,4 @@ RUN go get github.com/go-sql-driver/mysql
 RUN go get github.com/stretchr/testify/assert
 RUN go get go.uber.org/zap
 RUN go build -o main .
-CMD ["/main"]
+CMD ["/app/main"]
